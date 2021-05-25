@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_jaap"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.example.naamjaap.utils.NJTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" नाम जाप "
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <com.example.naamjaap.utils.NJTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack" />
+
+        <com.example.naamjaap.utils.NJTextView
+            android:id="@+id/count_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack" />
+
+        <com.example.naamjaap.utils.NJButton
+            android:id="@+id/btn_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="राम"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="incrementValue"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

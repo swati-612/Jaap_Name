@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_jaap"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.example.naamjaap.utils.NJTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="संदेश"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"/>
+    <com.example.naamjaap.utils.NJTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="शास्त्रों के अनुसार राम नाम में ही पूरा ब्राह्मांड समाया है और सभी देवता भी इसी में समाए हैं जिसने राम नाम का जाप कर लिया वह अपने जीवन में तर जाता है। राम नाम की महिमा मनुष्य का जीवन सौभाग्य और दुर्भाग्य की अनुभूतियों से भरा हुआ है। कभी मनुष्य को सौभाग्य की प्राप्ति होती है तो कभी दुर्भाग्य की।"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="120dp"/>
+
+</LinearLayout>
